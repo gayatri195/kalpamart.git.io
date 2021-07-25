@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+  <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/ordering"
+      android:layout_marginTop="180dp"/>
+
+  <TextView
+      android:layout_width="289dp"
+      android:layout_height="26dp"
+      android:text="Shop from a veriety of products"
+      android:textSize="20dp"
+      android:layout_gravity="center"
+      android:textStyle="bold"
+      android:layout_marginTop="60dp"
+      android:textColor="#272728"/>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_gravity="center"
+      android:layout_marginTop="60dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:src="@drawable/title"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:id="@+id/skip"/>
+
+  </LinearLayout>
+</LinearLayout>

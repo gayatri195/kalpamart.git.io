@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="98dp"
+    android:background="#EDEBEB"
+    android:orientation="vertical">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:gravity="center"
+      android:backgroundTint="#E5E5E5">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_all_inbox_24"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="left" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textSize="30dp"
+        android:textColor="#272728"
+        android:textStyle="normal"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_search_24"
+        android:layout_gravity="right"
+        android:padding="10dp"
+        android:layout_marginRight="10dp"/>
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/container"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All"
+       android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textColor="#FE9850"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Kids and baby"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jewelry"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunglasses"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_weight="1"/>
+
+
+  </LinearLayout>
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="8dp"
+      android:orientation="horizontal">
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="From stores you follow"
+      android:textSize="15dp"
+      android:textColor="#333"
+      android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See all"
+        android:textColor="#FE9850"
+        android:gravity="center"
+        android:layout_marginLeft="150dp"
+        android:textSize="15dp"/>
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:background="#FFFF">
+       <ImageView
+           android:layout_width="165dp"
+           android:layout_height="170dp"
+           android:src="@drawable/placeholder1">
+       </ImageView>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Men's Regular Fit Box"
+          android:gravity="center"
+          android:textColor="#333"
+          android:layout_marginRight="7dp"
+          android:textSize="15dp"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Cotton Casual shorts"
+          android:textSize="15dp"
+          android:layout_marginTop="5dp"
+          android:layout_marginRight="7dp"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Rs.1500"
+          android:textColor="#FE9850"
+          android:textSize="15dp"
+          android:layout_marginTop="5dp"
+          android:layout_marginLeft="-48dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:background="#FFFF">
+      <ImageView
+          android:layout_width="165dp"
+          android:layout_height="170dp"
+          android:src="@drawable/nava999">
+      </ImageView>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Men's fashionable front"
+          android:textColor="#333"
+          android:textSize="15dp"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="zip Bomber Jacket"
+          android:layout_marginRight="16dp"
+          android:textSize="15dp"
+          android:layout_marginTop="5dp"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Rs.1500"
+          android:textColor="#FE9850"
+          android:textSize="15dp"
+          android:layout_marginTop="5dp"
+          android:layout_marginLeft="-48dp"/>
+
+    </LinearLayout>
+
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="257dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="#FFFF"
+        android:gravity="center"
+        android:orientation="vertical">
+
+      <ImageView
+          android:layout_width="175dp"
+          android:layout_height="185dp"
+          android:src="@drawable/placeholder2">
+
+      </ImageView>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Jack Daniel's"
+          android:textColor="#333"
+          android:textSize="15dp"
+          android:layout_marginRight="30dp"/>
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="-48dp"
+          android:layout_marginTop="5dp"
+          android:text="Rs.7,050"
+          android:textColor="#FE9850"
+          android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="#FFFF"
+        android:gravity="center"
+        android:orientation="vertical">
+
+      <ImageView
+          android:layout_width="165dp"
+          android:layout_height="170dp"
+          android:src="@drawable/placeholder">
+
+      </ImageView>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Comfort Nylon Dog"
+          android:textColor="#333"
+          android:textSize="15dp"
+          android:layout_marginRight="10dp"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp"
+          android:layout_marginRight="10dp"
+          android:text="Walking harness for"
+          android:textSize="14dp" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp"
+          android:layout_marginRight="10dp"
+          android:text="small, medium dogs"
+          android:textSize="14dp" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="-48dp"
+          android:layout_marginTop="5dp"
+          android:text="Rs.1000"
+          android:textColor="#FE9850"
+          android:textSize="15dp" />
+
+    </LinearLayout>
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="70dp"
+      android:layout_gravity="center"
+      android:background="#FFFF"
+      android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+      <ImageView
+          android:layout_width="30dp"
+          android:layout_height="15dp"
+          android:layout_weight="1"
+          android:src="@drawable/ic_baseline_home_24" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Home"
+          android:textSize="12dp"
+          android:textColor="#FE9850"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+      <ImageView
+          android:layout_width="30dp"
+          android:layout_height="15dp"
+          android:layout_weight="1"
+          android:src="@drawable/ic_baseline_local_mall_24" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Market"
+          android:textSize="12dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+      <ImageView
+          android:layout_width="30dp"
+          android:layout_height="15dp"
+          android:layout_weight="1"
+          android:src="@drawable/ic_baseline_shopping_cart_24" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Cart"
+          android:textSize="12dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+      <ImageView
+          android:layout_width="30dp"
+          android:layout_height="15dp"
+          android:layout_weight="1"
+          android:src="@drawable/ic_baseline_account_circle_24" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Profile"
+          android:textSize="12dp"/>
+    </LinearLayout>
+
+  </LinearLayout>
+
+</LinearLayout>
